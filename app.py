@@ -231,7 +231,7 @@ def adicionar_avaliacao():
         print('Nota inválida.')
 
 
-
+ 
 def adicionar_item_cardapio():
     print('\n--- Adicionar Item ao Cardápio ---')
     restaurante = escolher_restaurante()

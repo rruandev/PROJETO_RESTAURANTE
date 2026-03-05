@@ -140,7 +140,7 @@ def exibir_cabecalho():
 
 def exibir_menu():
     print('\n--- MENU PRINCIPAL ---')
-    print('1 - Cadastrar restaurante')
+    print('1_ Cadastrar restaurante')
     print('2 - Listar restaurantes')
     print('3 - Alternar estado do restaurante')
     print('4 - Adicionar avaliação')
@@ -170,7 +170,6 @@ def escolher_restaurante():
     except ValueError:
         print('Por favor, digite apenas números.')
         return None
-
 
 
 
